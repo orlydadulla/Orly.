@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-color: #f4f68e !important;
+}
+
+/*Navbar CSS*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-color: #6e2b70;
+}
+
+nav div a {
+
+	color: #ffffff !important;
+	font-weight: 600;
+}
+
+
+/*Home CSS*/
+.home{
+	background-color: #f4f68e;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+div div h1 {
+	font-size: 3rem;
+	color: #6e2b70;
+}
+
+#spanheader{
+	font-size: 3rem;
+	color: #b795b7;
+}
+
+i{
+	font-size: 2rem;
+	color: #6e2b70;
+}
+
+#vpbutton{
+	background-color: #6e2b70;
+	color: #ffffff;
+}
+
+/*About CSS*/
+.about{
+	
+	background-color: #f4f68e;
+	display: flex;
+
+}
+
+.profilepic{
+	height: 450px;
+	width: 450px;
+	border-radius: 450px;
+
+}
+
+h2 {
+	color: #6e2b70;
+}
+
+h5 {
+	color: #6e2b70;
+}
+
+li {
+	color: #6e2b70;
+}
+
+#name{
+	color: #6e2b70;
+	font-weight: 500;
+}	
+
+p {
+	color: #6e2b70;
+	font-weight: 400;
+}
+
+#icon-sub{
+	font-size: 1.5rem;
+}
+
+#subitem{
+	list-style: square;
+	color: #b795b7;
+	font-weight: 500;
+
+}
+
+.accordion-button{
+	background-color: #f4f68e !important;
+	margin: 0 !important;
+	color: #6e2b70 !important;
+
+}
+
+.accordion-body{
+	background-color: #f4f68e !important;
+	color: #6e2b70 !important;
+}
+
+/*Projects CSS*/
+
+.projects{
+	background-color: #f4f68e;
+	display: flex;
+}
+
+.card-body{
+	background-color: #6e2b70 !important;
+}
+
+#card-content{
+	color: #ffffff;
+	list-style: none;
+}
+
+#card-icon{
+	color: #ffffff;
+	font-size: 1rem;
+}
+
+.card{
+	background-color: #6e2b70 !important;
+	color: #ffffff;
+	width: 18rem;
+}
+
+#card-button{
+	background-color: #b795b7 !important;
+	color: #ffffff;
+	font-weight: 450;
+
+}
+
+.card-img-top{
+	height: 200px;
+	width: auto;
+}
+
+/*Contact CSS*/
+
+.contact{
+	background-color: #f4f68e;
+	display: flex;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+#contact_form{
+	height: auto;
+	width: 550px;
+}
+
+#contact_info{
+	height: 480px;
+	width: 550px;
+}
+
+#sendEmailbtn{
+	background-color: #ffffff !important;
+	color: #6e2b70;
+	font-weight: 450;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#contact_cardContent{
+	color: #ffffff;
+}
+
+#contact_Icon{
+	color: #ffffff !important;
+	font-size: 1.25rem;
+}
+
+/*Footer CSS*/
+
+#footer{
+	background-color: #6e2b70;
+}
+
+#footer_content{
+	color: #ffffff;
+}
+
+#footer_Icon{
+	color: #ffffff !important;
+	font-size: 2rem;
+}
